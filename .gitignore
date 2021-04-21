@@ -1,0 +1,17 @@
+# Import cache
+.import/
+
+# Binaries
+bin/
+build/
+lib/
+
+# VCS integration
+git_api.gdns
+git_api.gdnlib
+
+# Translation
+*.translation
+
+# Sensitive
+export_presets.cfg

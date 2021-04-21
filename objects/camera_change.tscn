@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://objects/camera_change.gd" type="Script" id=1]
+
+[sub_resource type="SegmentShape2D" id=1]
+b = Vector2( 0, 256 )
+
+[node name="ChangeCamera" type="Area2D"]
+collision_layer = 2147483648
+script = ExtResource( 1 )
+right_bottom_limit = Vector2( 90000, 1080 )
+ahead_right = 0.3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+[connection signal="body_entered" from="." to="." method="_on_ChangeCamera_body_entered"]

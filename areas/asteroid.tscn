@@ -1,0 +1,158 @@
+[gd_scene load_steps=90 format=2]
+
+[ext_resource path="res://assets/sprites/walls/rock_light.png" type="Texture" id=1]
+[ext_resource path="res://areas/asteroid.gd" type="Script" id=2]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0006.png" type="Texture" id=3]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0002.png" type="Texture" id=4]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0000.png" type="Texture" id=5]
+[ext_resource path="res://assets/sprites/walls/rock_dark_var.png" type="Texture" id=7]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0004.png" type="Texture" id=8]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0005.png" type="Texture" id=9]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0007.png" type="Texture" id=10]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0003.png" type="Texture" id=11]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0044.png" type="Texture" id=12]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0046.png" type="Texture" id=13]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0045.png" type="Texture" id=14]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0047.png" type="Texture" id=15]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0048.png" type="Texture" id=16]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0051.png" type="Texture" id=17]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0049.png" type="Texture" id=18]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0050.png" type="Texture" id=19]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0052.png" type="Texture" id=20]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0053.png" type="Texture" id=21]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0054.png" type="Texture" id=22]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0055.png" type="Texture" id=23]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0059.png" type="Texture" id=24]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0060.png" type="Texture" id=25]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0056.png" type="Texture" id=26]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0057.png" type="Texture" id=27]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0058.png" type="Texture" id=28]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0024.png" type="Texture" id=29]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0025.png" type="Texture" id=30]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0028.png" type="Texture" id=31]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0027.png" type="Texture" id=32]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0026.png" type="Texture" id=33]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0030.png" type="Texture" id=34]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0031.png" type="Texture" id=35]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0032.png" type="Texture" id=36]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0029.png" type="Texture" id=37]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0001.png" type="Texture" id=38]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0010.png" type="Texture" id=39]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0008.png" type="Texture" id=40]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0009.png" type="Texture" id=41]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0013.png" type="Texture" id=42]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0011.png" type="Texture" id=43]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0012.png" type="Texture" id=44]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0014.png" type="Texture" id=45]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0015.png" type="Texture" id=46]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0033.png" type="Texture" id=47]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0034.png" type="Texture" id=48]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0035.png" type="Texture" id=49]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0037.png" type="Texture" id=50]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0036.png" type="Texture" id=51]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0043.png" type="Texture" id=52]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0041.png" type="Texture" id=53]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0042.png" type="Texture" id=54]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0040.png" type="Texture" id=55]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0038.png" type="Texture" id=56]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0039.png" type="Texture" id=57]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0016.png" type="Texture" id=58]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0019.png" type="Texture" id=59]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0017.png" type="Texture" id=60]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0018.png" type="Texture" id=61]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0022.png" type="Texture" id=62]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0023.png" type="Texture" id=63]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0020.png" type="Texture" id=64]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0021.png" type="Texture" id=65]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0061.png" type="Texture" id=66]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0062.png" type="Texture" id=67]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0063.png" type="Texture" id=68]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0064.png" type="Texture" id=69]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0067.png" type="Texture" id=70]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0068.png" type="Texture" id=71]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0066.png" type="Texture" id=72]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0065.png" type="Texture" id=73]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0074.png" type="Texture" id=74]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0072.png" type="Texture" id=75]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0069.png" type="Texture" id=76]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0070.png" type="Texture" id=77]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0071.png" type="Texture" id=78]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0073.png" type="Texture" id=79]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0075.png" type="Texture" id=80]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0078.png" type="Texture" id=81]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0077.png" type="Texture" id=82]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0076.png" type="Texture" id=83]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0079.png" type="Texture" id=84]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0080.png" type="Texture" id=85]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0081.png" type="Texture" id=86]
+[ext_resource path="res://assets/sprites/walls/video_javi2/sad0082.png" type="Texture" id=87]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 31, 31 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": false,
+"name": "light",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": false,
+"name": "dark",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 38 ), ExtResource( 4 ), ExtResource( 11 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 10 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 39 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 42 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 58 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 59 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 33 ), ExtResource( 32 ), ExtResource( 31 ), ExtResource( 37 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 50 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 55 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 52 ), ExtResource( 12 ), ExtResource( 14 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 17 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 73 ), ExtResource( 72 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 75 ), ExtResource( 79 ), ExtResource( 74 ), ExtResource( 80 ), ExtResource( 83 ), ExtResource( 82 ), ExtResource( 81 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ) ],
+"loop": false,
+"name": "Explode",
+"speed": 80.0
+} ]
+
+[sub_resource type="Animation" id=3]
+resource_name = "explode"
+length = 1.05
+step = 0.013
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.013, 0.026, 0.039, 0.052, 0.065, 0.078, 0.091, 0.104, 0.117, 0.13, 0.143, 0.156, 0.169, 0.182, 0.195, 0.208, 0.221, 0.234, 0.247, 0.26, 0.273, 0.286, 0.299, 0.312, 0.325, 0.338, 0.351, 0.364, 0.377, 0.39, 0.403, 0.416, 0.429, 0.442, 0.455, 0.468, 0.481, 0.494, 0.507, 0.52, 0.533, 0.546, 0.559, 0.572, 0.585, 0.598, 0.611, 0.624, 0.637, 0.65, 0.663, 0.676, 0.689, 0.702, 0.715, 0.728, 0.741, 0.754, 0.767, 0.78, 0.793, 0.806, 0.819, 0.832, 0.845, 0.858, 0.871, 0.884, 0.897, 0.91, 0.923, 0.936, 0.949, 0.962, 0.975, 0.988, 1.001 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Explode" ]
+}
+
+[node name="Brick" type="StaticBody2D"]
+scale = Vector2( 2, 2 )
+collision_layer = 4
+collision_mask = 0
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 2 )
+animation = "dark"
+
+[node name="RespawnTimer" type="Timer" parent="."]
+wait_time = 12.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/explode = SubResource( 3 )
+[connection signal="timeout" from="RespawnTimer" to="." method="_on_Timer_timeout"]
