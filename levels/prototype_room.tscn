@@ -72,6 +72,7 @@ position = Vector2( 1376, 544 )
 
 [node name="FinishLine" parent="." instance=ExtResource( 8 )]
 position = Vector2( 4960, 576 )
+
 [connection signal="camera_change" from="CameraChanges/ChangeCamera3" to="Player" method="_on_camera_change"]
 [connection signal="camera_change" from="CameraChanges/ChangeCamera4" to="Player" method="_on_camera_change"]
 [connection signal="time_update" from="StartLine" to="GUI" method="_on_StartLine_time_update"]

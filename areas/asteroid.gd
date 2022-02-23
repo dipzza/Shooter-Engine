@@ -2,7 +2,7 @@ extends StaticBody2D
 
 export var max_health = 4
 export var glow_factor = 0.4
-var health = max_health
+onready var health = max_health
 
 signal exploding
 

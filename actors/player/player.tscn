@@ -152,5 +152,6 @@ texture = ExtResource( 5 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TeleportArea"]
 shape = SubResource( 5 )
+
 [connection signal="body_entered" from="TeleportArea" to="TeleportArea" method="_on_TeleportArea_body_entered"]
 [connection signal="body_exited" from="TeleportArea" to="TeleportArea" method="_on_TeleportArea_body_exited"]
