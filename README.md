@@ -4,6 +4,8 @@ Move by shooting and try to get the best time in this fast-paced speedrunning ga
 
 Made with [Godot Engine](https://godotengine.org/)
 
+Releases available on https://itch.io/profile/dipzza
+
 ## Controls
 
 *A controller is recommended*
